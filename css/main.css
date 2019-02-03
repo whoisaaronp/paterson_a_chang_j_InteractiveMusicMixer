@@ -1,19 +1,47 @@
-/* CSS */
+@charset "UTF-8";
+/* CSS Document */
 
-/* Wrapper Container for the badges */
-.image-wrapper 
+.hidden
 {
-	width: 45%;
-	display: : inline-block;
+	display: none;
 }
 
-image 
+#container
 {
-	width: 100%;
-	display: block;
+	width: 700px;
+	margin: 0 auto;
 }
 
-#background:hover
+body
 {
-	fill: red;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+h1
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 38px;
+	letter-spacing: -1px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 15px;
+}
+
+p
+{
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+p:first-line
+{
+	font-weight: bold;
+	color: #666;
+}
+
+p:first-letter
+{
+	color: #000;
+	font-size: 50px;
 }

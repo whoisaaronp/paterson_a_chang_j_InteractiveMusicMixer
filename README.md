@@ -1,7 +1,25 @@
+# project Ambient Dance 
+
+// InteractiveMusicMixer 
+// Paterson Aaron | Chang Jin as desginer 
+
+creating some basic sketch design for the website 
+list of items that will be featured on the wesbite (designed in AI or PS)
+- simple logo
+- music mixer icon & logo
+- sound track (or could be labeled as beats) with its own music/album cover or icons (designed)
+- finally melody soundtracks to add some kind of background music to start up with 
+
+// sound samples links
+
+https://www.soundsnap.com/animals/birds
+<!-- been having bit of trouble pushing into seperate branch -->
+
 # paterson_a_chang_j_InteractiveMusicMixer
 
 // InteractiveMusicMixer 
 // Paterson Aaron | Chang Jin 
+
 
 
 Task completed.
@@ -39,4 +57,4 @@ Possible techiques we can use to implement our functionality.
 
 Aaron:
 Optimized the images with a better nomencrature convention.
-created the testing interface. 
+created the testing interface.  dev.ap.script

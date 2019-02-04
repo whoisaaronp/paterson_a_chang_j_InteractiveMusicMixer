@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # project Ambient Dance 
 
 // InteractiveMusicMixer 
@@ -14,3 +15,9 @@ list of items that will be featured on the wesbite (designed in AI or PS)
 
 https://www.soundsnap.com/animals/birds
 <!-- been having bit of trouble pushing into seperate branch -->
+=======
+# paterson_a_chang_j_InteractiveMusicMixer
+
+// InteractiveMusicMixer 
+// Paterson Aaron | Chang Jin 
+>>>>>>> master

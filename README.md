@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # project Ambient Dance 
 
 // InteractiveMusicMixer 

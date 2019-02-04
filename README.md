@@ -35,3 +35,8 @@ Functions with Javascript
 
 Possible techiques we can use to implement our functionality.
 <!-- https://www.createjs.com/getting-started/soundjs -->
+
+
+Aaron:
+Optimized the images with a better nomencrature convention.
+created the testing interface. 

@@ -1,12 +1,15 @@
-//create jar, name jar, place string in jar 
-var firstName = "Marco";
+// This is the intro to javascript. 
+// To create go to 'View' > 'Javascript'  and save the file to the folder.
 
-//alert is method(built in function in JS)
-//alert("Hello" + firstName);
 
-//modern JS 
-//alert ('Hello ${firstName}');
+// create a variable with a string call it a 'name.'
+// Below is a example of Concatination
+//var firstName = "Aaron";
+// alert("Hello" + firstName);
 
-//console.log("Hello" + " " + firstName)
+// Modern Js
+// alert(`Hello ${firstName}`);
+
+//console.log("Hello " + firstName);
 
 console.log("javascript linked up");

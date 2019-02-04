@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+
+/* Blur Background */
+body
+{
+	font-family: 'Montserrat', Arial, sans-serif;
+
+}
+
+/* blur image above the container */
+.blur {
+  width: 150%;
+  height: 150%;
+  margin: -25% 0 0 -25%;
+  z-index: -1;
+}
+
+.blur img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.blur img:hover {
+  -webkit-filter: blur(15px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(15px);
+}
+
+.siteContainer
+{
+    
+ 	display: flex;
+  	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* interface width */
+.imageWrapper
+{
+    width: 1260px;
+    height: 700px;
+    margin: 60px;
+	background-color: #dcdcdc;  
+
+}
+
+/* major mono display*/
+.imageWrapper h1
+{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 64px;
+	font-weight: bold;
+	letter-spacing: 0.04em;
+	margin-bottom: 20px;
+}
+
+.interTitle
+{	
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 40px;
+	text-align: center;
+}
+/* subhead copy */
+#subHead
+{	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
+
+/* Drag your music here space */
+
+/*.dragArea
+{
+	display: flex;
+	flex-direction: row;
+	height: 210px;
+	margin-top: 180px;
+	margin-bottom: 20px;
+	background-color: #209b54; 
+}*/
+
+#drag
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#dragSlot
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1260px;
+	height: 30px;
+	margin-top: 10px;
+
+}
+
+.dragMedia
+{
+	border-radius: 50px;
+	width: 100px;
+	height:  100px;
+	margin-top: 28px;
+	background-color: #9a0d67;
+	
+}
+
+
+/* ambient icons holder  */
+.ambienceCon
+{
+	display: flex;
+	flex-direction: row;
+	height: 190px;
+	margin-top: 161px;
+	margin-bottom: 20px;
+	background-color: #209b54; 
+}
+
+#promoCon
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#musicCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1260px;
+	height: 100px;
+	margin-top: 60px;
+
+
+}
+
+/* music media icons container */
+.musicMedia
+{	
+	border-radius: 50px;
+	width: 100px;
+	background-color: #9a0d67;
+}
+/*  ambience selector end */
+
+/* melody icon selector start */
+.melodyCon
+{
+	display: flex;
+	flex-direction: row;
+	height: 141px;
+	background-color: #209b54; 
+}
+
+#promoCon
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#melodyCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 1260px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+/* melody media icons container  */
+.melodyMedia
+{	
+	border-radius: 50px;
+	width: 100px;
+	background-color: #9a0d67;
+}
+
+
+

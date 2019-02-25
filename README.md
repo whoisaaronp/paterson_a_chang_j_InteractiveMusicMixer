@@ -1,35 +1,15 @@
 # project Ambient Dance 
 
-// InteractiveMusicMixer 
-// Paterson Aaron | Chang Jin as desginer 
+## InteractiveMusicMixer 
+## Paterson Aaron, Design/Dev | Chang Jin, Design/Dev
 
-creating some basic sketch design for the website 
-list of items that will be featured on the wesbite (designed in AI or PS)
-- simple logo
-- music mixer icon & logo
-- sound track (or could be labeled as beats) with its own music/album cover or icons (designed)
-- finally melody soundtracks to add some kind of background music to start up with 
 
 // sound samples links
 
 https://www.soundsnap.com/animals/birds
 <!-- been having bit of trouble pushing into seperate branch -->
 
-# paterson_a_chang_j_InteractiveMusicMixer
-
-// InteractiveMusicMixer 
-// Paterson Aaron | Chang Jin 
-
-
-
-Task completed.
-1. Design the interface(JIN)
-2. Gathers images for the background Blur effect
-3. Gather Ambient sounds
-4. Gather Melodies
-
-
-How does it work:
+## How does it work:
 
 1. User chooses a melody from the 3 options 
 2. Drag the melody to the top center console.
@@ -40,14 +20,18 @@ How does it work:
 4. The melody and ambient music play togehter and the user and mixer and from their selection.
 5. Music icons begins to pulse.
 
+## Getting Started
+Have a series of meetings regards who's going to design and develop. What need interactions would we like to see on the interface?
 
+```bash
 Thank you, Pink Floyd - "Speak to me/Breathe"
+```
 
+## Sounds
+[MIT](https://www.soundsnap.com/animals/birds)
 
-Aaron, Research:
-Functions with Javascript
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+Please make sure to update tests as appropriate.
 
-Aaron:
-Optimized the images with a better nomencrature convention.
-created the testing interface.  dev.ap.script

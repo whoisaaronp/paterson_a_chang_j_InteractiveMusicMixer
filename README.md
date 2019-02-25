@@ -32,6 +32,17 @@ Thank you, Pink Floyd - "Speak to me/Breathe"
 ## Sounds
 [AUDIO](https://www.soundsnap.com/animals/birds)
 
+
+## Tuts
+[KUDOS](https://alemangui.github.io/pizzicato/)
+
+
+[KUDOS](https://www.createjs.com/soundjs)
+
+## 
+[KUDOS](https://www.createjs.com/getting-started/soundjs)
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

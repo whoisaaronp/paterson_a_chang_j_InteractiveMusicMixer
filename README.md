@@ -21,14 +21,16 @@ https://www.soundsnap.com/animals/birds
 5. Music icons begins to pulse.
 
 ## Getting Started
-Have a series of meetings regards who's going to design and develop. What need interactions would we like to see on the interface?
+Have a series of meetings regards who's going to design and develop. 
+What need interactions would we like to see on the interface?
+
 
 ```bash
 Thank you, Pink Floyd - "Speak to me/Breathe"
 ```
 
 ## Sounds
-[MIT](https://www.soundsnap.com/animals/birds)
+[AUDIO](https://www.soundsnap.com/animals/birds)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

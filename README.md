@@ -47,13 +47,6 @@ Thank you, Pink Floyd - "Speak to me/Breathe"
 Aaron, Research:
 Functions with Javascript
 
-<!-- https://alemangui.github.io/pizzicato/ -->
-
-<!-- https://www.createjs.com/soundjs -->
-
-Possible techiques we can use to implement our functionality.
-<!-- https://www.createjs.com/getting-started/soundjs -->
-
 
 Aaron:
 Optimized the images with a better nomencrature convention.

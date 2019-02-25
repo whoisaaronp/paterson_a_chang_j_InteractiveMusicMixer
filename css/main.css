@@ -6,94 +6,109 @@
 	display: none;
 }
 
+html, body 
+{
+  margin: 0;
+  padding: 0;
+}
 
 /* Blur Background */
 body
 {
 	font-family: 'Montserrat', Arial, sans-serif;
+	color: #fff;
 
+}
+
+main
+{
+	background: url(../images/filip-mroz-531492-unsplash.jpg) center no-repeat;
+	height: 3196px;
+}
+
+
+.blur, main 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 /* blur image above the container */
-.blur {
-  width: 150%;
-  height: 150%;
-  margin: -25% 0 0 -25%;
-  z-index: -1;
+.blurBackground 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; 
+	z-index: -1;
 }
 
-.blur img {
-  width: 100%;
-  height: auto;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  transition: all .25s ease;
-}
-
-.blur img:hover {
+.blurBackground:hover 
+{
   -webkit-filter: blur(15px);
   -moz-filter: all .25s ease;
   -o-filter: all .25s ease;
   -ms-filter: all .25s ease;
   filter: blur(15px);
 }
+/* Logo hover funcation syntax */
 
-.siteContainer
-{
-    
- 	display: flex;
-  	flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-/* interface width */
-.imageWrapper
-{
-    width: 1260px;
-    height: 700px;
-    margin: 60px;
-	background-color: #dcdcdc;  
-
-}
-
-/* major mono display*/
-.imageWrapper h1
-{
-	font-family: 'Major Mono Display', monospace;
-	font-size: 64px;
-	font-weight: bold;
-	letter-spacing: 0.04em;
-	margin-bottom: 20px;
-}
-
-.interTitle
-{	
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 40px;
-	text-align: center;
-}
-/* subhead copy */
-#subHead
-{	
-	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-}
-
-/* Drag your music here space */
-
-/*.dragArea
+.logoCentered
 {
 	display: flex;
 	flex-direction: row;
-	height: 210px;
-	margin-top: 180px;
-	margin-bottom: 20px;
-	background-color: #209b54; 
-}*/
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+#logoStatic
+{
+	position: absolute;
+	background: black url("../images/ambidanceLogo.png") no-repeat;
+    margin-top: 40px;
+    width: 600px;
+    height: 112px;
+    
+}
+
+#logoStatic:hover
+{
+	opacity: 0;
+}
+
+#logoHover img
+{
+	margin-top: 40px;
+	width: 600px;
+}
+
+/* interface width creating two layer instead of one */
+.interfaceWrapper
+{
+    width: 1260px;
+    height: 700px;
+    background-color: #000;  
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%); 
+
+}
+
+/* subhead text */
+#subHead
+{	
+	font-family: 'Montserrat', Arail, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.06em;
+	font-size: 14px;
+	text-align: center;
+}
 
 #drag
 {
@@ -118,62 +133,50 @@ body
 	width: 100px;
 	height:  100px;
 	margin-top: 28px;
-	background-color: #9a0d67;
+	background-color: #d1044c;
 	
 }
-
 
 /* ambient icons holder  */
 .ambienceCon
 {
 	display: flex;
 	flex-direction: row;
-	height: 190px;
-	margin-top: 161px;
-	margin-bottom: 20px;
-	background-color: #209b54; 
+	justify-content: center;
+	margin-top: 130px;
+	margin-bottom: 40px;
+	border-top:1px solid #fff;
 }
 
-#promoCon
-{
-	display: flex;
-	flex-direction: column;
-}
 
 #musicCon
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	width: 1260px;
+	justify-content: space-evenly;
+	width: 1040px;
 	height: 100px;
-	margin-top: 60px;
-
+	margin-top: 40px;
 
 }
 
 /* music media icons container */
 .musicMedia
 {	
+	cursor: pointer;
 	border-radius: 50px;
 	width: 100px;
-	background-color: #9a0d67;
+	background-color: #d1044c;
 }
 /*  ambience selector end */
-
 /* melody icon selector start */
 .melodyCon
 {
+	cursor: pointer;
 	display: flex;
 	flex-direction: row;
 	height: 141px;
-	background-color: #209b54; 
-}
-
-#promoCon
-{
-	display: flex;
-	flex-direction: column;
+	border-top:1px solid #fff; 
 }
 
 #melodyCon
@@ -183,7 +186,7 @@ body
 	justify-content: space-evenly;
 	width: 1260px;
 	height: 100px;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 /* melody media icons container  */
@@ -191,7 +194,7 @@ body
 {	
 	border-radius: 50px;
 	width: 100px;
-	background-color: #9a0d67;
+	background-color: #d1044c;
 }
 
 

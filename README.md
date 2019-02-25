@@ -32,7 +32,7 @@ Task completed.
 How does it work:
 
 1. User chooses a melody from the 3 options 
-2. Drag the meldoy to the top cetner console.
+2. Drag the melody to the top center console.
 3. Melody start playing.
 4. Interface message prompt to "choose" from any of the eight Ambient sounds.
 5. Drag from any amount of the 8 different ambient sounds. [birds, waterfall, wind{thorugh forest}, 

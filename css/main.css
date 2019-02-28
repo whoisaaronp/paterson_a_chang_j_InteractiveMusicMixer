@@ -63,7 +63,7 @@ main
 	margin: 0 auto;
 }
 
-
+/* static image */
 #logoStatic
 {
 	position: absolute;
@@ -73,12 +73,12 @@ main
     height: 102px;
     
 }
-
+/* remove the static image above and make it zero */
 #logoStatic:hover
 {
 	opacity: 0;
 }
-
+/* image under the static image */
 #logoHover img
 {
 	margin-top: 35px;

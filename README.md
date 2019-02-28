@@ -25,12 +25,15 @@ Thank you, Pink Floyd - "Speak to me/Breathe"
 
 ## Sounds
 [AUDIO](https://www.soundsnap.com/animals/birds)
+[AUDIO]http://www.orangefreesounds.com/
+Special thanks for the melodies Artist: Alexander Blu
 
-
-## Tuts
+## Tuts && Salutations
 [KUDOS](https://alemangui.github.io/pizzicato/)
 [KUDOS](https://www.createjs.com/soundjs)
 [KUDOS](https://www.createjs.com/getting-started/soundjs)
+
+
 
 
 ## Contributing

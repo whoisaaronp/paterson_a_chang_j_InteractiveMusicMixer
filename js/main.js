@@ -16,6 +16,8 @@ const dropSound = (e) => {
 
 (() => {
 
+	let aud = document.querySelector('audio')
+		tracks = document.querySelectorAll(".trackholder");
 
 	console.log("javascript linked up");
 	// below does the samething.
@@ -39,5 +41,13 @@ const dropSound = (e) => {
 
 	// setup play on 'drop' then add more music on top of the first drop
 
+	// for the drag and drop function to play on drop
+	function switchAudioTrack() {
+		currentTrack = this.dataset.currenttrack;
+
+		aud.src = `audio/${currentTrack}`;
+		aud.load();
+		aud.play();
+	}
 
 })(); 

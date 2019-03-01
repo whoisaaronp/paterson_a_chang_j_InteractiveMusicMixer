@@ -100,6 +100,32 @@ main
 
 }
 
+/* reset button */
+#resBut
+{
+	top: 40px;
+	right: 40px;
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+	background-color: pink;
+	cursor: pointer;
+}
+
+#resBut p
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #000;
+	font-weight: bold;
+
+}
+
 /* subhead text */
 #subHead
 {	
@@ -110,12 +136,6 @@ main
 	text-align: center;
 }
 
-#drag
-{
-	display: flex;
-	flex-direction: column;
-}
-
 #dragSlot
 {
 	display: flex;
@@ -124,7 +144,6 @@ main
 	width: 1260px;
 	height: 30px;
 	margin-top: 10px;
-
 }
 
 .dragMedia
@@ -132,8 +151,11 @@ main
 	border-radius: 50px;
 	width: 100px;
 	height:  100px;
-	margin-top: 28px;
-	background-color: #d1044c;
+	margin-top: 30px;
+	color: white;
+	border-radius: 50%;
+	border-width:3px;  
+    border-style: dotted;
 	
 }
 
@@ -143,7 +165,7 @@ main
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin-top: 130px;
+	margin-top: 150px;
 	margin-bottom: 40px;
 	border-top:1px solid #fff;
 }

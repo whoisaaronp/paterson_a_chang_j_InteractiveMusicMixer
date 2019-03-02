@@ -17,7 +17,7 @@ const dropSound = (e) => {
     const audioTrack = document.querySelector("#"+id+" audio");
     audioTrack.play();
 
-};
+}; 
 
 //shuffle through the images after reset is pressed
 const bgImgs = [
@@ -35,7 +35,7 @@ const bgImgs = [
 
 // Prevent default links > grabbing all the audio elements > looping over all the elements > pausing each one.
 // Math.random() return a value 0 to 1 (decimals) So It returns random number.
-//  
+// getrandomIntegre > getting a random number between 0 and the lenght of the 'array' (the images array above) 
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);

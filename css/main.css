@@ -97,6 +97,7 @@ main
     left: 0;
     right: 0;
     transform: translateY(-50%); 
+    border-radius: 6px;
 
 }
 
@@ -106,10 +107,10 @@ main
 	top: 40px;
 	right: 40px;
 	position: absolute;
-	width: 55px;
-	height: 55px;
+	width: 52px;
+	height: 52px;
 	border-radius: 50px;
-	background-color: pink;
+	background-color: #fff;
 	cursor: pointer;
 }
 
@@ -129,26 +130,22 @@ main
 /* subhead text */
 #subHead
 {	
-	font-family: 'Montserrat', Arail, sans-serif;
+	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 300;
 	letter-spacing: 0.06em;
 	font-size: 14px;
 	text-align: center;
 }
 
-#dragSlot
+.dragArea
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	width: 1260px;
-	height: 30px;
-	margin-top: 10px;
+	justify-content: center;
+	margin-top: 5px;
 }
 
 .dragMedia
 {
-	border-radius: 50px;
 	width: 100px;
 	height:  100px;
 	margin-top: 30px;
@@ -156,7 +153,15 @@ main
 	border-radius: 50%;
 	border-width:3px;  
     border-style: dotted;
+    position: relative;
 	
+}
+/* drag here text */
+.dragMedia p
+{
+	margin-top: 42px;
+	font-size: 14px;
+	text-align: center;
 }
 
 /* ambient icons holder  */
@@ -165,7 +170,7 @@ main
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin-top: 150px;
+	margin-top: 48px;
 	margin-bottom: 40px;
 	border-top:1px solid #fff;
 }

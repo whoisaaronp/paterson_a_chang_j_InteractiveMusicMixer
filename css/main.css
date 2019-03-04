@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+html, body 
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Blur Background */
+body
+{
+	font-family: 'Montserrat', Arial, sans-serif;
+	color: #fff;
+
+}
+
+main
+{
+	background: url(../images/filip-mroz-531492-unsplash.jpg) center no-repeat;
+	height: 3196px;
+}
+
+
+.blur, main 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* blur image above the container */
+.blurBackground 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; 
+	z-index: -1;
+}
+
+.blurBackground:hover 
+{
+  -webkit-filter: blur(15px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(15px);
+}
+/* Logo hover funcation syntax */
+
+.logoCentered
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+#logoStatic
+{
+	position: absolute;
+	background: black url("../images/ambidanceLogo.png") no-repeat;
+    margin-top: 40px;
+    width: 600px;
+    height: 112px;
+    
+}
+
+#logoStatic:hover
+{
+	opacity: 0;
+}
+
+#logoHover img
+{
+	margin-top: 40px;
+	width: 600px;
+}
+
+/* interface width creating two layer instead of one */
+.interfaceWrapper
+{
+    width: 1260px;
+    height: 700px;
+    background-color: #000;  
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%); 
+
+}
+
+/* subhead text */
+#subHead
+{	
+	font-family: 'Montserrat', Arail, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.06em;
+	font-size: 14px;
+	text-align: center;
+}
+
+#drag
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#dragSlot
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1260px;
+	height: 30px;
+	margin-top: 10px;
+
+}
+
+.dragMedia
+{
+	border-radius: 50px;
+	width: 100px;
+	height:  100px;
+	margin-top: 28px;
+	background-color: #d1044c;
+	
+}
+
+/* ambient icons holder  */
+.ambienceCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 130px;
+	margin-bottom: 40px;
+	border-top:1px solid #fff;
+}
+
+
+#musicCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 1040px;
+	height: 100px;
+	margin-top: 40px;
+
+}
+
+/* music media icons container */
+.musicMedia
+{	
+	cursor: pointer;
+	border-radius: 50px;
+	width: 100px;
+	background-color: #d1044c;
+}
+/*  ambience selector end */
+/* melody icon selector start */
+.melodyCon
+{
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	height: 141px;
+	border-top:1px solid #fff; 
+}
+
+#melodyCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 1260px;
+	height: 100px;
+	margin-top: 40px;
+}
+
+/* melody media icons container  */
+.melodyMedia
+{	
+	border-radius: 50px;
+	width: 100px;
+	background-color: #d1044c;
+}
+
+
+

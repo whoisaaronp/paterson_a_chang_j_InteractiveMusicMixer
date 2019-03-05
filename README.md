@@ -5,14 +5,13 @@
 
 ## How does it work:
 
-1. User chooses a melody from the 3 options 
-2. Drag the melody to the top center console.
-3. Melody start playing.
-4. Interface message prompt to "choose" from any of the eight Ambient sounds.
-5. Drag from any amount of the 8 different ambient sounds. [birds, waterfall, wind{thorugh forest}, 
-	ocean{water hitting the shores}, fire wood, raindrop, people talking{backgorund noise}, & crickets.
-4. The melody and ambient music play togehter and the user and mixer and from their selection.
-5. Music icons begins to pulse.
+1. User chooses from a set of ambient sounds and melodies.
+2. Drag the icons to the top center console that reads 'Drag Here'.
+3. Melody/Ambient start playing.
+4. Drag from any amount of the 8 different ambient sounds. [birds, waterfall, wind{thorugh forest}, 
+	ocean{water hitting the shores}, fire wood, raindrop, people talking{background noise}, & crickets.
+5. The melody and ambient music play together.
+6. The Reset[R] Button works are a pause/reset function that holds the same track called after the reset is pressed again.
 
 ## Getting Started
 Have a series of meetings regards who's going to design and develop. 

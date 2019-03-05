@@ -175,6 +175,15 @@ main
 	border-top:1px solid #fff;
 }
 
+#sectionTitle
+{
+	letter-spacing: 0.03em;
+	position: absolute;
+	left: 25px;
+	font-weight: 500;
+	font-size: 12px;
+	margin-top: 25px;
+}
 
 #musicCon
 {

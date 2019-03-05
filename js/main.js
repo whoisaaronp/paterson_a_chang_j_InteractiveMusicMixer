@@ -1,4 +1,4 @@
-// This is the intro to javascript. 
+
 // To create go to 'View' > 'Javascript'  and save the file to the folder.
 // In safari the drags work, but you can't see the icons.
 // defining the functions

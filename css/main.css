@@ -98,33 +98,50 @@ main
     right: 0;
     transform: translateY(-50%); 
     border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+            0 2px 4px 0 rgba(0,0,0,0.08);
 
 }
 
-/* reset button */
-#resBut
-{
+#resBut{
+-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #dedede));
+	background:-moz-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #dedede 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dedede',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	border-radius:35px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
 	top: 40px;
 	right: 40px;
 	position: absolute;
-	width: 52px;
-	height: 52px;
-	border-radius: 50px;
-	background-color: #fff;
-	cursor: pointer;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:19px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
 }
 
-#resBut p
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;	
-	align-items: center;
-	margin: 0 auto;
-	margin-top: 20px;
-	color: #000;
-	font-weight: bold;
-
+#resBut:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dedede), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #dedede 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedede', endColorstr='#ffffff',GradientType=0);
+	background-color:#dedede;
 }
 
 /* subhead text */

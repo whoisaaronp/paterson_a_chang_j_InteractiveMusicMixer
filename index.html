@@ -5,13 +5,27 @@
 		<title>AmbiDance Music Mixer</title>
 		<!-- A starting point to clear your DOM -->
 		<link href="css/reset.css" rel ="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
 		<link href="css/main.css" rel ="stylesheet" type="text/css">
 
 	</head>
 	<body>
+		<!-- the modal shoud have a higher value  -->
+		<section class="card-container">
+			<a href="#" id="button" class="butInfo">i</a>
+		</section>
+		<div class="bgModal">
+			<div class="modalContent">
+				<div class="close">+</div>
+					<div id="instructionCon">
+						<p id="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eius esse voluptates veritatis amet rem quaerat</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eius esse voluptates veritatis amet rem quaerat</p>
+				</div>
+			</div>
+		</div>
 		<!-- blur image background -->
 		<!--  add the class to the main and set the backgound in css and content will stack -->
+		<!-- interfaceWrapper and  must have a z-index of a negative value -->
 		<main  class="blurBackground"></main>
 				<div class="interfaceWrapper">
 					<div><a href="#" id="resBut">R</a><div>

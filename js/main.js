@@ -55,7 +55,7 @@ const resetSong = (e) => {
 };
 
 
-// Taking he id of drag to the event as data.
+// Taking the id of drag to the event as data.
 const startDrag = (e) => {
     e.dataTransfer.setData("circle_id", e.target.id);
 }
@@ -93,7 +93,7 @@ const startDrag = (e) => {
 	}
 
 //console.log("Hello " + firstName);
-console.log("javascript linked up");
+console.log("javascript says music is playing");
 
 // get the button with the id call button
 document.getElementById('button').addEventListener("click", function() {

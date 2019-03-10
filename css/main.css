@@ -323,7 +323,7 @@ main
 	border-top:1px solid #fff;
 }
 
-#sectionTitle
+.sectionTitle
 {
 	letter-spacing: 0.03em;
 	position: absolute;
@@ -350,8 +350,90 @@ main
 	cursor: pointer;
 	border-radius: 50px;
 	width: 100px;
-	background-color: #d1044c;
+	background-color: #000;
+	border: 1px solid #fff;
+	transition: opacity .25s ease;
 }
+
+/* Hover transition*/
+.musicMedia:hover
+{	
+	opacity: .6;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 100px;
+	background-color: #000;
+	
+}
+
+#music1 
+{
+		
+	background-image: url(../images/alien_ship.svg);
+	background-position: center;
+
+}
+
+#music2 
+{
+		
+	background-image: url(../images/creepy_2.svg);
+	background-position: center;
+
+}
+
+#music3 
+{
+		
+	background-image: url(../images/creepy_space.svg);
+	background-position: center;
+
+}
+
+#music4 
+{
+		
+	background-image: url(../images/donnerre.svg);
+	background-position: center;
+
+}
+
+#music5 
+{
+		
+	background-image: url(../images/forest.svg);
+	background-position: center;
+
+}
+#music6 
+{
+		
+	background-image: url(../images/ocean_edge.svg);
+	background-position: center;
+
+}
+#music7 
+{
+		
+	background-image: url(../images/night_crickets.svg);
+	background-position: center;
+
+}
+
+#music8
+{
+		
+	background-image: url(../images/space_loop.svg);
+	background-position: center;
+
+}
+
+.melodyMedia
+{
+	background-image: url(../images/melody.svg);
+	background-position: center;
+}
+
 /*  ambience selector end */
 /* melody icon selector start */
 .melodyCon
@@ -378,7 +460,20 @@ main
 {	
 	border-radius: 50px;
 	width: 100px;
-	background-color: #d1044c;
+	border: 1px solid #fff;
+	transition: opacity .25s ease;
+
+}
+
+/* Hover transition*/
+.melodyMedia:hover
+{	
+	opacity: .6;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 100px;
+	background-color: #000;
+	
 }
 
 

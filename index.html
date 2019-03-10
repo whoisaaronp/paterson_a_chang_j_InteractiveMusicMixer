@@ -4,23 +4,24 @@
 		<meta charset="utf-8">
 		<title>AmbiDance Music Mixer</title>
 		<!-- A starting point to clear your DOM -->
+		<link rel="shortcut icon" type="image/png" href="images/flavicon.png">
 		<link href="css/reset.css" rel ="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
 		<link href="css/main.css" rel ="stylesheet" type="text/css">
-
+		
 	</head>
 	<body>
 		<!-- the modal shoud have a higher value  -->
 		<section class="card-container">
+			<h2 class="hidden">Ambidance Interface</h2>
 			<a href="#" id="button" class="butInfo">i</a>
 		</section>
 		<div class="bgModal">
 			<div class="modalContent">
 				<div class="close">+</div>
 					<div id="instructionCon">
-						<p id="intro"><span id="bolder">Instructions</span></br>Welcome to Ambidance, a muscial experience like to other. In the main interface you'll see two music options to choose from 'Ambience' and 'Melodies.'</p>
-						<p>Drag any of the circular icons into the 'Drag Here' section to play the track of your chosing. You can also stack tracks to create whatever you like. Have fun exploring!!</p>
-						<p>The Reset/Pause button is to your top right corner</p>
+						<p id="intro"><span id="bolder">Instructions</span></br>Welcome to Ambidance, a muscial experience like to other. In the main interface you'll see two music options to choose from <i>Ambience</i> and <i>Melodies.</i></p>
+						<p>Drag any of the circular icons into the 'Drag Here' section to play the track of your chosing. You can also stack tracks to create whatever you like. The Reset/Pause button is to your top right corner. Have fun exploring!!</p>
 				</div>
 			</div>
 		</div>
@@ -42,7 +43,7 @@
 					</div>
 					<!-- music is grab into here  GIF GOES HERE ***** -->
 					<section class="dragArea">
-						<h2 class="hidden"></h2>
+						<h2 class="hidden">Drag Area</h2>
 						<section id="dragSlot">
 				       		<!-- target the images via the id or class in javasript -->
 				       		<h3 class="hidden">Music Media Nav</h3>
@@ -54,8 +55,9 @@
 						<!-- Ambience Sounds Section -->
 						<section class="ambienceCon">
 	       					<h2 class="hidden">Ambient Music Section</h2>
-	       					<p id="sectionTitle">AMBIENCE</p>
-	       					<section>	       						
+	       					<p class="sectionTitle">AMBIENCE</p>
+	       					<section>	
+	       						<h2 class="hidden">Ambient Music Sect</h2>       						
 	       						<h3 class="hidden">Ambience drag icons</h3>
 					       				<section id="musicCon">
 					       					<!-- target the images via the id or class in javasript -->
@@ -89,21 +91,21 @@
 	       				</section>
 	       				<!-- Melodies Section -->
 						<section class="melodyCon">
-							<p id="sectionTitle">MELODIES</p>
-	       					<h2 class="hidden">Ambient Music Section</h2>
+							<p class="sectionTitle">MELODIES</p>
+	       					<h2 class="hidden">Melodies Music Section</h2>
 	       					<section>
 	       						<h3 class="hidden">Ambience drag icons</h3>
 					       				<section id="melodyCon">
 					       				<!-- 	target the images via the id or class in javasript -->
 					       					<h3 class="hidden">melody Media Nav</h3>
-					       						<div id="meloMusic" class="melodyMedia trackholder">
-					       							<audio src="audio/melody_2.mp3" loop></audio>
-					       						</div>
-					       						<div id="meloMusic" class="melodyMedia trackholder">
+					       						<div id="meloMusic" class="melodyMedia">
 					       							<audio src="audio/melody_3.mp3" loop></audio>
 					       						</div>
-					       						<div id="meloMusic" class="melodyMedia trackholder">
-					       							<audio src="audio/melody_4.mp3" loop></audio>
+					       						<div id="meloMusic" class="melodyMedia">
+					       							<audio src="audio/melody_1.mp3" loop></audio>
+					       						</div>
+					       						<div id="meloMusic" class="melodyMedia">
+					       							<audio src="audio/melody_2.mp3" loop></audio>
 					       						</div>
 					       				</section>
 					       	</section>

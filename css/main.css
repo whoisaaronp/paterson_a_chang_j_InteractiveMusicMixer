@@ -57,13 +57,12 @@ main
 	display:inline-block;
 	top: 40px;
 	left: -20px;
-	position: absolute;
-	cursor:pointer;
-	color:#666666;
-	font-family: 'Montserrat', Arial, sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:16px 21px;
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    color: #666666;
+    padding: 10px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }
@@ -150,6 +149,7 @@ main
 
 
 }
+
 
 /*   This is the start of main code  */
 
@@ -248,13 +248,12 @@ main
 	display:inline-block;
 	top: 40px;
 	right: 40px;
-	position: absolute;
-	cursor:pointer;
-	color:#666666;
-	font-family: 'Montserrat', Arial, sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:19px 21px;
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    color: #666666;
+    padding: 10px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }
@@ -299,12 +298,25 @@ main
     position: relative;
 	
 }
+
+
 /* drag here text */
 .dragMedia p
 {
 	margin-top: 42px;
 	font-size: 14px;
 	text-align: center;
+}
+
+/* flame gif file */
+#onFlame
+{
+	display: block;
+    position: absolute;
+    right: -94px;
+    bottom: -76px;
+    margin: 0 auto;
+    z-index: -1;
 }
 
 /* ambient icons holder  */

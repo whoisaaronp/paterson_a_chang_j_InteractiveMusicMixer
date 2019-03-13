@@ -16,6 +16,8 @@ const dropSound = (e) => {
     const id = e.dataTransfer.getData("circle_id");
     const audioTrack = document.querySelector("#"+id+" audio");
     audioTrack.play();
+    // This will reveal the the gif on DROP!!
+    onFlame.style.display = 'block'
 
 }; 
 
@@ -41,7 +43,7 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
+// reset button function
 const resetSong = (e) => {
     e.preventDefault();
     document.querySelectorAll("audio").forEach((audio, i) => {
@@ -75,6 +77,11 @@ const startDrag = (e) => {
 
 
 	const dragPanel = document.querySelector('.dragMedia');
+    const onFlame = document.getElementById('onFlame');
+
+    // This will hide the gif before you drag 
+    onFlame.style.display = "none";
+    
 
     dragPanel.addEventListener('dragover', allowDrop);
     dragPanel.addEventListener('drop', dropSound);
@@ -92,19 +99,19 @@ const startDrag = (e) => {
 		aud.play();
 	}
 
-//console.log("Hello " + firstName);
-console.log("javascript says music is playing");
+    //console.log("Hello " + firstName);
+    console.log("javascript says music is playing");
 
-// get the button with the id call button
-document.getElementById('button').addEventListener("click", function() {
-    document.querySelector('.bgModal').style.display = "flex";
-});
+    // get the button with the id call button
+    document.getElementById('button').addEventListener("click", function() {
+        document.querySelector('.bgModal').style.display = "flex";
+    });
 
-// create the close function
-document.querySelector('.close').addEventListener("click", function() {
-    // this is the function here
-    document.querySelector('.bgModal').style.display = "none";
-});
+    // create the close function
+    document.querySelector('.close').addEventListener("click", function() {
+        // this is the function here
+        document.querySelector('.bgModal').style.display = "none";
+    });
 
 
 

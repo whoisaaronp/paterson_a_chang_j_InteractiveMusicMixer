@@ -329,14 +329,13 @@ main
 {
 	display: flex;
 	justify-content: center;
-	margin-top: 45px;
+	margin-top: 5px;
 }
 
 .dragMedia
 {
 	width: 100px;
 	height:  100px;
-<<<<<<< HEAD
 	margin-top: 30px;
 	color: white;
 	border-radius: 50%;
@@ -377,7 +376,6 @@ main
 	border-top:1px solid #fff;
 }
 
-<<<<<<< HEAD
 .sectionTitle
 {
 	letter-spacing: 0.03em;
@@ -405,7 +403,6 @@ main
 	cursor: pointer;
 	border-radius: 50px;
 	width: 100px;
-<<<<<<< HEAD
 	background-color: #000;
 	border: 1px solid #fff;
 	transition: opacity .25s ease;

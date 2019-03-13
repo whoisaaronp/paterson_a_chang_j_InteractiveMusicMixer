@@ -93,9 +93,54 @@ main
 	top: 0;
 	display: none;
 	z-index: 1;
-
 }
 
+
+.blur, main 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* blur image above the container */
+.blurBackground 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; 
+	z-index: -1;
+}
+
+.blurBackground:hover 
+{
+  -webkit-filter: blur(15px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(15px);
+}
+/* Logo hover funcation syntax */
+
+.logoCentered
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+#logoStatic
+{
+	position: absolute;
+	background: black url("../images/ambidanceLogo.png") no-repeat;
+    margin-top: 40px;
+    width: 600px;
+    height: 112px;
+    
+}
 
 /* The '+' positioned to its closest parent which is the modal */
 .modalContent
@@ -163,6 +208,7 @@ main
 
 /* blur image above the container */
 .blurBackground 
+
 {
 	display: flex;
 	align-items: center;
@@ -290,6 +336,7 @@ main
 {
 	width: 100px;
 	height:  100px;
+<<<<<<< HEAD
 	margin-top: 30px;
 	color: white;
 	border-radius: 50%;
@@ -330,6 +377,7 @@ main
 	border-top:1px solid #fff;
 }
 
+<<<<<<< HEAD
 .sectionTitle
 {
 	letter-spacing: 0.03em;
@@ -357,6 +405,7 @@ main
 	cursor: pointer;
 	border-radius: 50px;
 	width: 100px;
+<<<<<<< HEAD
 	background-color: #000;
 	border: 1px solid #fff;
 	transition: opacity .25s ease;

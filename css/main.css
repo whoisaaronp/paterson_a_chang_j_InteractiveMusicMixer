@@ -27,6 +27,75 @@ main
 }
 
 
+
+.card-container 
+{
+	max-width: 1120px;
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	z-index: 7;
+	position: relative;
+}
+
+.resBut_1{
+-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#fff;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	border-radius:35px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	top: 40px;
+	left: -20px;
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    color: #666666;
+    padding: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.resBut_1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+
+/* MODAL STARTS HERE */
+/* justify content horizontally and verically with align-items */
+/* display none will hide it then you reveal it Javascript */
+.bgModal
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: none;
+	z-index: 1;
+}
+
+
 .blur, main 
 {
     position: absolute;
@@ -63,7 +132,6 @@ main
 	margin: 0 auto;
 }
 
-
 #logoStatic
 {
 	position: absolute;
@@ -74,15 +142,119 @@ main
     
 }
 
+/* The '+' positioned to its closest parent which is the modal */
+.modalContent
+{
+	display: flex;
+	flex-direction: column;
+	width: 560px;
+	height: 320px;
+	background-color: #fff;
+	border-radius: 4px;
+	z-index: 1;
+}
+
+#instructionCon
+{
+	font-size: 14px;	
+	line-height: 24px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	color: #000;
+}
+
+#bolder
+{
+	display: block;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+#intro
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #696969;
+	padding-bottom: 10px;
+	position: relative;
+}
+.close
+{
+
+	width:30px;
+	height:30px;
+	padding: 4px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	color: #000;
+	margin-left: auto;
+
+
+}
+
+
+/*   This is the start of main code  */
+
+.blur, main 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* blur image above the container */
+.blurBackground 
+
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; 
+	z-index: -1;
+}
+
+.blurBackground:hover 
+{
+  -webkit-filter: blur(15px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(15px);
+}
+/* Logo hover funcation syntax */
+
+.logoCentered
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+/* static image */
+#logoStatic
+{
+	position: absolute;
+	background: black url("../images/ambidanceLogo_545.png") no-repeat;
+    margin-top: 35px;
+    width: 545px;
+    height: 102px;
+    
+}
+/* remove the static image above and make it zero */
 #logoStatic:hover
 {
 	opacity: 0;
 }
-
+/* image under the static image */
 #logoHover img
 {
-	margin-top: 40px;
-	width: 600px;
+	margin-top: 35px;
+	width: 545px;
 }
 
 /* interface width creating two layer instead of one */
@@ -97,44 +269,100 @@ main
     left: 0;
     right: 0;
     transform: translateY(-50%); 
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+            0 2px 4px 0 rgba(0,0,0,0.08);
 
+}
+
+#resBut{
+-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #dedede));
+	background:-moz-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #dedede 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #dedede 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dedede',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	border-radius:35px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	top: 40px;
+	right: 40px;
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    color: #666666;
+    padding: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+#resBut:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dedede), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #dedede 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #dedede 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedede', endColorstr='#ffffff',GradientType=0);
+	background-color:#dedede;
 }
 
 /* subhead text */
 #subHead
 {	
-	font-family: 'Montserrat', Arail, sans-serif;
+	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 300;
 	letter-spacing: 0.06em;
 	font-size: 14px;
 	text-align: center;
 }
 
-#drag
+.dragArea
 {
 	display: flex;
-	flex-direction: column;
-}
-
-#dragSlot
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	width: 1260px;
-	height: 30px;
-	margin-top: 10px;
-
+	justify-content: center;
+	margin-top: 5px;
 }
 
 .dragMedia
 {
-	border-radius: 50px;
 	width: 100px;
 	height:  100px;
-	margin-top: 28px;
-	background-color: #d1044c;
+	margin-top: 30px;
+	color: white;
+	border-radius: 50%;
+	border-width:3px;  
+    border-style: dotted;
+    position: relative;
 	
+}
+
+
+/* drag here text */
+.dragMedia p
+{
+	margin-top: 42px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* flame gif file */
+#onFlame
+{
+	display: block;
+    position: absolute;
+    right: -94px;
+    bottom: -76px;
+    margin: 0 auto;
+    z-index: -1;
 }
 
 /* ambient icons holder  */
@@ -143,11 +371,20 @@ main
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin-top: 130px;
+	margin-top: 48px;
 	margin-bottom: 40px;
 	border-top:1px solid #fff;
 }
 
+.sectionTitle
+{
+	letter-spacing: 0.03em;
+	position: absolute;
+	left: 25px;
+	font-weight: 500;
+	font-size: 12px;
+	margin-top: 25px;
+}
 
 #musicCon
 {
@@ -166,8 +403,90 @@ main
 	cursor: pointer;
 	border-radius: 50px;
 	width: 100px;
-	background-color: #d1044c;
+	background-color: #000;
+	border: 1px solid #fff;
+	transition: opacity .25s ease;
 }
+
+/* Hover transition*/
+.musicMedia:hover
+{	
+	opacity: .6;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 100px;
+	background-color: #000;
+	
+}
+
+#music1 
+{
+		
+	background-image: url(../images/alien_ship.svg);
+	background-position: center;
+
+}
+
+#music2 
+{
+		
+	background-image: url(../images/creepy_2.svg);
+	background-position: center;
+
+}
+
+#music3 
+{
+		
+	background-image: url(../images/creepy_space.svg);
+	background-position: center;
+
+}
+
+#music4 
+{
+		
+	background-image: url(../images/donnerre.svg);
+	background-position: center;
+
+}
+
+#music5 
+{
+		
+	background-image: url(../images/forest.svg);
+	background-position: center;
+
+}
+#music6 
+{
+		
+	background-image: url(../images/ocean_edge.svg);
+	background-position: center;
+
+}
+#music7 
+{
+		
+	background-image: url(../images/night_crickets.svg);
+	background-position: center;
+
+}
+
+#music8
+{
+		
+	background-image: url(../images/space_loop.svg);
+	background-position: center;
+
+}
+
+.melodyMedia
+{
+	background-image: url(../images/melody.svg);
+	background-position: center;
+}
+
 /*  ambience selector end */
 /* melody icon selector start */
 .melodyCon
@@ -194,7 +513,20 @@ main
 {	
 	border-radius: 50px;
 	width: 100px;
-	background-color: #d1044c;
+	border: 1px solid #fff;
+	transition: opacity .25s ease;
+
+}
+
+/* Hover transition*/
+.melodyMedia:hover
+{	
+	opacity: .6;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 100px;
+	background-color: #000;
+	
 }
 
 

@@ -1,36 +1,31 @@
 # project Ambient Dance 
 
-// InteractiveMusicMixer 
-// Paterson Aaron | Chang Jin as desginer 
+## InteractiveMusicMixer 
+## Paterson Aaron, Design/Dev | Chang Jin, Design/Dev
 
-creating some basic sketch design for the website 
-list of items that will be featured on the wesbite (designed in AI or PS)
-- simple logo
-- music mixer icon & logo
-- sound track (or could be labeled as beats) with its own music/album cover or icons (designed)
-- finally melody soundtracks to add some kind of background music to start up with 
+## How does it work:
 
-// sound samples links
+1. User chooses from a set of ambient sounds and melodies.
+2. Drag the icons to the top center console that reads 'Drag Here'.
+3. Melody/Ambient start playing.
+4. Drag from any amount of the 8 different ambient sounds. [birds, waterfall, wind{thorugh forest}, 
+	ocean{water hitting the shores}, fire wood, raindrop, people talking{background noise}, & crickets.
+5. The melody and ambient music play together.
+6. The Reset[R] Button works are a pause/reset function that holds the same track called after the reset is pressed again.
 
-https://www.soundsnap.com/animals/birds
-<!-- been having bit of trouble pushing into seperate branch -->
-
-# paterson_a_chang_j_InteractiveMusicMixer
-
-// InteractiveMusicMixer 
-// Paterson Aaron | Chang Jin 
+## Getting Started
+Have a series of meetings regards who's going to design and develop. 
+What need interactions would we like to see on the interface?
 
 
+```bash
+Thank you, Pink Floyd - "Speak to me/Breathe"
+```
 
-Task completed.
-1. Design the interface(JIN)
-2. Gathers images for the background Blur effect
-3. Gather Ambient sounds
-4. Gather Melodies
-
-
-How does it work:
-
+<<<<<<< HEAD
+## Sounds
+[AUDIO](https://www.soundsnap.com/animals/birds)
+=======
 1. User chooses a melody from the 3 options 
 2. Drag the melody to the top center console.
 3. Melody start playing.
@@ -39,15 +34,25 @@ How does it work:
 	ocean{water hitting the shores}, fire wood, raindrop, people talking{backgorund noise}, & crickets. ]
 4. The melody and ambient music play togehter and the user and mixer and from their selection.
 5. Music icons begins to pulse.
+>>>>>>> c74401536f2645b3908b12fa23ba0b029fb9bebe
 
+[AUDIO](http://www.orangefreesounds.com/)
 
-Thank you, Pink Floyd - "Speak to me/Breathe"
+Special thanks for the melodies Artist: Alexander Blu
 
+## Tuts && Salutations
 
-Aaron, Research:
-Functions with Javascript
+[KUDOS](https://alemangui.github.io/pizzicato/)
 
+<<<<<<< HEAD
+[KUDOS](https://www.createjs.com/soundjs)
 
-Aaron:
-Optimized the images with a better nomencrature convention.
-created the testing interface.  dev.ap.script
+[KUDOS](https://www.createjs.com/getting-started/soundjs)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+=======
+>>>>>>> c74401536f2645b3908b12fa23ba0b029fb9bebe
+

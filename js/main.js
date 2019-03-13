@@ -85,6 +85,7 @@ const startDrag = (e) => {
 
     dragPanel.addEventListener('dragover', allowDrop);
     dragPanel.addEventListener('drop', dropSound);
+    
     // When the button is clicked used the resetSong function above.
     document.getElementById('resBut').addEventListener('click', resetSong);
 
